@@ -1,0 +1,16 @@
+﻿Name = FileCopy
+Description = Copies files
+DeployFrom = ..\app
+DeployTo = \\@appServer\Tools\FileCopy
+BackupTo = \\@appServer\Tools\FileCopyArchive\
+FileExclusions=
+ *.config
+FileShares=
+\\@appServer\Tools|E:\Tools
+\\@appServer\Dooley|@dooleyShare
+Configurations=
+@configurationFile|.\@configurationFileFinalName
+Permissions=
+Domain\Bob|\\@appServer\Tools\FileCopy|RX
+Domain\@appUserName|\\@appServer\Tools\FileCopy|RX
+Domain\@appUserName|\\@appServer\Tools\FileCopy\Logs|MRWXD

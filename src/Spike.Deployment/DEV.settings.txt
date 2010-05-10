@@ -1,0 +1,6 @@
+@appServer=TestWeb
+@dooleyShare=E:\Program Files\Dooley
+@configurationFile=FileCopy.exe.TEST.config
+@configurationFileFinalName=FileCopy.exe.config
+@appUserName=App-FileCopyTEST
+@startService=true
